@@ -1,0 +1,13 @@
+2018-01-10 22:43:19 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE LOGINS (
+LOGINID INT AUTO_INCREMENT PUBLIC[*] KEY,
+LOGIN VARCHAR(255),
+PASSWORDSALT VARCHAR(255),
+PASSWORDHASH VARCHAR(255)
+) "; expected "(, NOT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table logins (
+LoginId int auto_increment public key,
+Login varchar(255),
+PasswordSalt varchar(255),
+PasswordHash varchar(255)
+) [42001-196]
